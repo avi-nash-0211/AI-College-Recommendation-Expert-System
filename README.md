@@ -1,80 +1,73 @@
+<p align="center">
+  <img src="assets/banner.png" alt="AI College Recommendation Expert System">
+</p>
+
 # AI College Recommendation Expert System
 
+A rule-based expert system built in Prolog for personalized college recommendation and decision support.
+
 ## Overview
-The AI College Recommendation Expert System is a rule-based expert system developed using Prolog. It helps students identify suitable colleges based on entrance examination scores, preferred branch, budget constraints, location preferences, hostel requirements, placement statistics, and scholarship opportunities.
-
-The system combines a knowledge base, eligibility rules, scoring mechanisms, and recommendation logic to simulate the decision-making process of an educational counselor.
-
+The AI College Recommendation Expert System is a Prolog-based expert system that provides personalized college recommendations using eligibility rules, placement statistics, rankings, fees, scholarships, and student preferences. It applies rule-based reasoning and scoring mechanisms to support informed college selection.
 ---
 
+## Key Features
+
+- Personalized college recommendations
+- Eligibility verification based on exam scores
+- Tier classification of colleges
+- College comparison and advisory support
+- Placement, ranking, and fee analysis
+- Scholarship and hostel availability filtering
+- Safe and stretch college identification
+
+---
 ## System Architecture
 ![System Architecture](docs/diagrams/system_architecture.png)
-## Features
 
-* College recommendation based on student profile
-* Eligibility checking using entrance examination scores
-* Tier classification of colleges
-* College comparison and advisory system
-* Placement and ranking analysis
-* Scholarship consideration
-* Budget-aware recommendations
-* Hostel availability filtering
-* Safe and stretch college suggestions
 
----
-
-## Technologies Used
+## Tech Stack
 
 - SWI-Prolog
-- Artificial Intelligence
-- Expert Systems
-- Knowledge Representation
 - Logic Programming
-- Rule-Based Reasoning
-- Decision Support Systems
----
-## AI Concepts Implemented
+- Rule-Based Expert System
+- Knowledge Representation
 
-- Knowledge Base Design
-- Rule-Based Inference
-- Eligibility Reasoning
-- Recommendation Generation
-- Decision Support Logic
-- Scoring and Ranking Mechanisms
-- Expert System Architecture
 ## Project Structure
 
+```text
 AI-College-Recommendation-Expert-System
-
-├── src
-
-│ ├── knowledge_base.pl
-
-│ ├── utility_predicates.pl
-
-│ ├── eligibility_rules.pl
-
-│ ├── scoring_engine.pl
-
-│ ├── recommendation_engine.pl
-
-│ ├── advisory_rules.pl
-
-│ └── main.pl
-
-├── docs
-
-│ ├── diagrams
-
-│ ├── screenshots
-
-│ └── report
-
-├── sample_queries
-
-└── assets
-
----
+│
+├── src/
+│   ├── knowledge_base.pl
+│   ├── utility_predicates.pl
+│   ├── eligibility_rules.pl
+│   ├── scoring_engine.pl
+│   ├── recommendation_engine.pl
+│   ├── advisory_rules.pl
+│   └── main.pl
+│
+├── docs/
+│   ├── diagrams/
+│   │   └── system_architecture.png
+│   │
+│   ├── screenshots/
+│   │   ├── top_recommendations.png
+│   │   ├── college_profile.png
+│   │   ├── college_comparison.png
+│   │   ├── tier_classification.png
+│   │   └── safe_colleges.png
+│   │
+│   └── report/
+│       └── Project_Report.pdf
+│
+├── sample_queries/
+│   └── test_queries.txt
+│
+├── assets/
+│
+├── README.md
+├── LICENSE
+```
 
 ## How to Run
 
@@ -100,33 +93,6 @@ recommend_top5(
     yes
 ).
 ```
-## Sample Queries
-
-### Top Recommendations
-
-recommend_top5(
-jee_main,
-96,
-btech,
-computer_science,
-300,
-delhi,
-yes
-).
-
-### College Profile
-
-college_profile(iit_delhi).
-
-### College Comparison
-
-compare_colleges(vit_vellore,srm_chennai).
-
-### Safe Colleges
-
-safe_college(X,jee_main,98).
-
----
 
 ## Screenshots
 
@@ -154,12 +120,9 @@ safe_college(X,jee_main,98).
 
 ## Future Enhancements
 
-* Web-based interface
-* Dynamic college dataset
-* Multi-user recommendation support
-* Machine learning assisted ranking
-* Database integration
-
+- Web-based user interface
+- Dynamic college data integration
+- Machine learning assisted recommendations
 ---
 
 ## Author
@@ -168,8 +131,3 @@ Avinash Madkatte
 
 MCA Candidate, Jawaharlal Nehru University (JNU)
 
-Areas of Interest:
-- Artificial Intelligence
-- Expert Systems
-- Software Development
-- Logic Programming
