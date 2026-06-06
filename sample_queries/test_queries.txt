@@ -1,0 +1,27 @@
+% Top 5 Recommendations
+
+recommend_top5(
+    jee_main,
+    96,
+    btech,
+    computer_science,
+    300,
+    delhi,
+    yes
+).
+
+% College Profile
+
+college_profile(dtu_delhi).
+
+% Compare Colleges
+
+compare_colleges(vit_vellore,srm_chennai).
+
+% Dream Colleges
+
+dream_college(X,jee_main,99).
+
+% Safe Colleges
+
+safe_college(X,jee_main,98).
