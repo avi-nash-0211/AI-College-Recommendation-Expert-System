@@ -4,10 +4,10 @@
 
 # AI College Recommendation Expert System
 
-A rule-based expert system built in Prolog for personalized college recommendation and decision support.
-
 ## Overview
+
 The AI College Recommendation Expert System is a Prolog-based expert system that provides personalized college recommendations using eligibility rules, placement statistics, rankings, fees, scholarships, and student preferences. It applies rule-based reasoning and scoring mechanisms to support informed college selection.
+
 ---
 
 ## Key Features
@@ -64,6 +64,7 @@ AI-College-Recommendation-Expert-System
 │   └── test_queries.txt
 │
 ├── assets/
+      └──banner.png
 │
 ├── README.md
 ├── LICENSE
